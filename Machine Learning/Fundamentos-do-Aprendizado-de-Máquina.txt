@@ -1,0 +1,139 @@
+Fundamentos do aprendizado de máquina (Machine Learning)
+
+O que é aprendizado de máquina?
+
+1. Dados de treinamento
+2. Algoritmo
+3. Modelo
+4. Inferência de dados
+5. Predição
+
+Aprendizado de máquina (ou machine learning em inglês) é uma subárea da inteligência artificial que se 
+concentra no desenvolvimento de algoritmos e modelos que permitem aos sistemas aprenderem padrões a partir de dados. 
+
+1. Dados de Treinamento:
+
+São conjuntos de dados usados para treinar um modelo de machine learning. Esses dados geralmente consistem em 
+exemplos rotulados, onde cada exemplo tem uma entrada (características) e uma saída desejada (rótulo ou resposta correta). 
+O modelo aprende a partir desses dados para fazer previsões ou tomar decisões.
+
+2. Algoritmo:
+
+É uma sequência de passos ou regras definidos para realizar uma tarefa específica. No contexto de machine learning, 
+um algoritmo é usado para aprender padrões nos dados de treinamento e construir um modelo.
+
+3. Modelo:
+
+É a representação do conhecimento adquirido pelo algoritmo durante o treinamento com os dados. O modelo é o resultado 
+do processo de aprendizado de máquina e é usado para fazer previsões ou tomar decisões sobre novos dados.
+
+4. Inferência de Dados:
+
+Refere-se ao processo de usar o modelo treinado para fazer previsões ou tomar decisões sobre dados que não foram vistos 
+durante o treinamento. É a aplicação prática do modelo para realizar tarefas específicas.
+
+5. Predição:
+
+É o resultado da aplicação do modelo a novos dados. No contexto de machine learning, a predição é a resposta ou a 
+estimativa gerada pelo modelo para uma entrada específica com base no que foi aprendido durante o treinamento.
+
+Em resumo, o aprendizado de máquina envolve treinar um modelo com dados, utilizando um algoritmo para aprender padrões, 
+e depois aplicar esse modelo para realizar inferências ou fazer previsões sobre novos dados.
+
+
+
+>>>>> Tipos de Aprendizados de máquina
+
+1. Aprendizado de máquina:
+1.1 Aprendizado supervisionado
+1.2 Aprendizado não supervisionado
+
+1.1 Aprendizado supervisionado
+1.1.1 Regressão
+1.1.2 Classificação: Classificação binária e Classificação multiclasse
+
+1.2 Aprendizado não supervisionado
+1.2.1 Agrupamento
+
+
+1.1 Aprendizado Supervisionado:
+
+Neste tipo de aprendizado, o algoritmo é treinado usando um conjunto de dados rotulado, ou seja, cada exemplo de 
+treinamento possui uma entrada e a saída desejada associada. O objetivo é fazer com que o modelo aprenda a mapear 
+as entradas para as saídas corretas, para que, posteriormente, possa fazer previsões ou classificações em novos dados 
+não rotulados.
+
+1.2 Aprendizado Não Supervisionado:
+
+Ao contrário do aprendizado supervisionado, no aprendizado não supervisionado, o algoritmo é alimentado com dados que 
+não possuem rótulos. O objetivo principal é descobrir padrões, estruturas ou relações intrínsecas nos dados sem ter 
+rótulos prévios. Agrupamento (clustering) e redução de dimensionalidade são exemplos comuns de tarefas não 
+supervisionadas.
+
+1.3 Aprendizado por Reforço:
+
+Neste tipo de aprendizado, um agente aprende a realizar ações em um ambiente para maximizar uma recompensa cumulativa. 
+O agente toma decisões sequenciais, e o aprendizado ocorre através da interação com o ambiente, recebendo feedback 
+positivo ou negativo com base nas ações tomadas. É frequentemente utilizado em contextos como jogos, robótica e 
+controle de processos.
+
+
+>>> Classificação para Aprendizado de Máquina:
+
+> Aprendizado Supervisionado
+- Regressão: Prevê um valor contínuo.
+- Classificação:
+    -Classificação Binária: Divide os dados em duas classes.
+    -Classificação Multiclasse: Divide os dados em mais de duas classes.
+
+> Aprendizado Não Supervisionado
+- Agrupamento (ou Clustering): Agrupa dados sem rótulos em clusters com base em semelhanças.
+Portanto, o aprendizado não supervisionado geralmente está associado ao agrupamento, não à classificação. 
+A classificação é uma tarefa de aprendizado supervisionado, enquanto o agrupamento é uma tarefa de aprendizado 
+não supervisionado.
+
+
+
+
+
+>>>>>>>>>>>> Mais Detalhes <<<<<<<<<<<<<
+
+1. Aprendizado Supervisionado:
+
+1.1 Regressão:
+Definição: Envolve prever um valor contínuo com base em entradas.
+Exemplo: Prever o preço de uma casa com base em características como número de quartos, localização, etc.
+Saída: Valor contínuo.
+
+1.2 Classificação:
+Definição Geral: Envolve categorizar dados em classes ou categorias.
+
+1.2.1 Classificação Binária:
+Definição: Divide os dados em duas classes distintas.
+Exemplo: Classificar e-mails como spam ou não spam.
+Saída: Duas classes possíveis (por exemplo, sim ou não, 0 ou 1).
+
+1.2.2 Classificação Multiclasse:
+Definição: Divide os dados em mais de duas classes.
+Exemplo: Classificar imagens de animais em gato, cachorro, ou pássaro.
+Saída: Mais de duas classes possíveis (por exemplo, gato, cachorro, pássaro).
+
+2. Aprendizado Não Supervisionado:
+2.1 Agrupamento (ou Clustering):
+Definição: Agrupa dados sem rótulos em clusters com base em semelhanças.
+Exemplo: Agrupar clientes de um site de compras com base em padrões de compra.
+Saída: Os clusters são formados sem conhecimento prévio das categorias.
+
+
+Em resumo, no aprendizado supervisionado, o modelo é treinado com pares de entrada e saída rotulados, enquanto no 
+aprendizado não supervisionado, o modelo é desafiado a encontrar padrões ou estruturas nos dados sem a orientação 
+explícita dos rótulos. Classificação, por sua vez, é uma tarefa específica que pode ocorrer tanto no aprendizado 
+supervisionado (classificação binária e multiclasse) quanto no aprendizado não supervisionado (em alguns contextos, 
+como clusterização com base em características similares).
+
+
+
+======================================================================================================================
+
+
+
