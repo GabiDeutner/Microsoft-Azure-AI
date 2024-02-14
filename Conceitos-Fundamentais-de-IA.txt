@@ -157,6 +157,7 @@ foi treinado.
 - Desafio ou Risco: Dados privados podem ser expostos.
 - Exemplo: Um bot de diagnóstico médico é treinado usando dados confidenciais de pacientes, que são armazenados de forma 
 insegura.
+Como os dados são coletados? Como são armazenados? Eles estão seguros?
 
 
 >>>  Inclusão
