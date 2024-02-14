@@ -1,0 +1,175 @@
+>>>>> Conceitos Fundamentais de IA <<<<<
+
+- Visão Geral da IA
+- Visão Computacional
+- Processamento de Linguagem Natural
+- Inteligência de Documentos e Mineração de Conhecimento
+- IA generativa
+
+- Conceitos fundamentais de IA
+- Fundamentos do aprendizado de máquina
+- Fundamentos dos serviços de IA do Azure
+
+
+
+>>> Conceitos Fundamentais de IA
+
+- Explique o que é IA e compreenda a importância da IA responsável.
+- Compreenda os diferentes tipos de modelos de aprendizado de máquina.
+- Identifique os serviços de IA disponíveis no Azure e para que são utilizados
+
+
+
+>>> O que é inteligência artifical?
+- Prever resultados e reconhecer padrões com base em dados históricos.
+- Extrair informações de fontes para obter conhecimento
+- Compreender a linguagem e participar de conversas
+- Reconhecereventos anormais e tomardecisões
+- Interpretando informações visuais
+
+IA, ou Inteligência Artificial, refere-se à capacidade de um sistema computacional realizar tarefas que normalmente 
+exigiriam inteligência humana. 
+
+Isso inclui:
+- Aprendizado de máquina
+- Processamento de linguagem natural
+- Visão computacional
+- Reconhecimento de padrões
+
+
+>>> Objetivo da IA:
+O objetivo da IA é criar sistemas que possam executar tarefas de forma autônoma, aprender com a experiência e 
+realizar decisões de maneira inteligente.
+
+
+>>> IA Responsável:
+A IA responsável é uma abordagem ética e consciente ao desenvolvimento e uso de sistemas de IA. 
+Ela reconhece os impactos sociais, éticos e legais da IA e busca garantir que esses sistemas sejam desenvolvidos 
+e utilizados de maneira ética, transparente, justa e segura. A importância da IA responsável é destacada pelos 
+seguintes pontos:
+
+- Ética e Transparência: A IA responsável promove a transparência no desenvolvimento e no funcionamento dos 
+sistemas de IA, garantindo que as decisões tomadas por esses sistemas sejam compreensíveis e éticas.
+
+- Equidade e Justiça: Busca evitar discriminações e viés nos sistemas de IA, assegurando que eles sejam desenvolvidos 
+de maneira justa e que não perpetuem preconceitos existentes na sociedade.
+
+- Privacidade: Garante o respeito à privacidade dos usuários, definindo práticas éticas no tratamento de dados e 
+informações pessoais.
+
+- Segurança: Enfatiza a importância de desenvolver sistemas de IA seguros para evitar possíveis ameaças, manipulações 
+maliciosas ou danos acidentais.
+
+- Responsabilidade: Define claramente as responsabilidades dos desenvolvedores, implementadores e usuários dos sistemas 
+de IA, assegurando que as consequências negativas sejam adequadamente endereçadas.
+
+- Colaboração Internacional: Reconhece a necessidade de colaboração global para estabelecer padrões éticos e práticas 
+responsáveis no desenvolvimento e uso da IA.
+
+A IA responsável visa garantir que a tecnologia seja uma força positiva na sociedade, contribuindo para o bem-estar 
+humano e minimizando riscos potenciais. Organizações, pesquisadores e desenvolvedores estão cada vez mais comprometidos 
+com práticas de IA responsável para garantir que os benefícios da tecnologia sejam alcançados de maneira ética e 
+sustentável.
+
+
+
+
+>>>>> Cargas de trabalho comuns de IA <<<<<
+
+
+>>> Machine Learning: Modelos preditivos baseados em dados e estatísticas.
+É preciso ter uma ideia do histórico para conseguir predizer o futuro.
+É realizado um treinamento da máquina com base nos dados recebidos.
+
+
+>>> Visão Computacional: Capacidades da IA para interpretar o mundo visualmente por meio de câmeras, vídeos e imagens.
+A inteligência artificial consegue identificar características visuais em imagens. Por exemplo, analisar uma foto e
+dizer se existe uma pessoa, a cor do cabelo da pessoa, cor dos olhos, etc.
+
+
+>>> Processamento de linguagem natural: Capacidades da IA para que um computador interprete a linguagem escrita ou 
+falada e responda adequadamente.
+Exemplo: selecionar o que é spam ou não (a IA aprende com a sua ajuda, quando você diz que não é spam ou que é)
+Comportamento humano em redes sociais
+Uso muito alto de dados em nuvem (testes, validações, armazenamento disso tudo)
+Informações relacionadas aos sentimentos dos usuários
+
+
+>>> Inteligência de Documentos: Capacidades de IA que lidam com o gerenciamento, processamento e uso de grandes volumes 
+de dados encontrados em formulários e documentos.
+
+
+
+>>> Mineração de conhecimento: Capacidades da IA para extrair informações de grandes volumes de dados muitas vezes não 
+estruturados para criar um armazenamento de conhecimento pesquisável.
+
+A mineração do conhecimento trabalha em três etapas distintas: Ingerir, Enriquecer e Explorar.
+
+O conteúdo será "ingerido" pela máquina (banco de dados, dados estruturados, PDFs, vídeos, imagens, áudios etc). 
+Depois, de todo esse conteúdo "ingerido" a máquina vai extrair informações, encontrar padrões e trabalhar a chamada
+"compreensão", ou seja, o que será feito com esses dados? O que esses dados significam? Isso será trabalhado em cima de
+modelos cognitivos. A volumetria de informações é enorme, então a análise precisa ser rápida.
+
+1. Ingerir (Selection): Nesta fase, são selecionados os dados relevantes para o processo de mineração. 
+Isso pode envolver a coleta de dados brutos de diversas fontes, como bancos de dados, logs de sistemas, 
+arquivos de texto, etc.
+A ênfase aqui é na escolha dos dados que são pertinentes para os objetivos da mineração do conhecimento. 
+A seleção cuidadosa dos dados inicia o processo de transformar dados brutos em informações significativas.
+
+
+2. Enriquecer (Preprocessing): Uma vez que os dados foram selecionados, a etapa de enriquecimento envolve a preparação 
+e o pré-processamento desses dados. Isso inclui a limpeza dos dados, tratamento de valores ausentes, normalização, 
+transformação e redução de dimensionalidade, se necessário.
+O objetivo é garantir que os dados estejam em um formato adequado para a aplicação de algoritmos de mineração, 
+removendo ruídos e garantindo a qualidade dos dados.
+
+
+3. Explorar (Data Mining): Na fase de exploração, os algoritmos de mineração de dados são aplicados aos dados enriquecidos 
+para identificar padrões, relações e informações úteis.
+Diferentes técnicas de mineração, como classificação, clusterização, regressão, entre outras, podem ser utilizadas 
+para extrair conhecimento dos dados.
+Os resultados são interpretados e analisados para obter insights e conhecimentos relevantes.
+
+
+>>>  IA Generativa: Recursos de IA que criam conteúdo original em vários formatos, incluindo linguagem natural, imagem, 
+código e muito mais
+
+
+
+
+
+
+>>>>> Princípios de IA responsável <<<<<
+
+
+>>> Imparcialidade
+- Desafio ou Risco: O preconceito pode afetar os resultados.
+- Exemplo: Um modelo de aprovação de empréstimos que discrimina por gênero devido ao preconceito nos dados com os quais 
+foi treinado.
+
+
+>>> Confiabilidade e segurança
+- Desafio ou Risco: Erros podem causar danos.
+- Exemplo: Um veículo autônomo sofre uma falha no sistema e causa uma colisão.
+
+
+>>> Privacidade e segurança
+- Desafio ou Risco: Dados privados podem ser expostos.
+- Exemplo: Um bot de diagnóstico médico é treinado usando dados confidenciais de pacientes, que são armazenados de forma 
+insegura.
+
+
+>>>  Inclusão
+- Desafio ou Risco:  As soluções podem não funcionar para todos.
+- Exemplo: Um aplicativo preditivo não fornece saída de áudio para usuários com deficiência visual.
+
+
+>>> Transparência
+- Desafio ou Risco:  Os usuários devem confiar em um sistema complexo.
+- Exemplo:  Uma ferramenta financeira baseada em IA faz recomendações de investimento – em que se baseiam?
+
+
+Responsabilidade
+- Desafio ou Risco: Quem é responsável pelas decisões baseadas na IA?
+- Exemplo: Uma pessoa inocente é condenada por um crime com base em provas de reconhecimento facial quem é o responsável?
+
