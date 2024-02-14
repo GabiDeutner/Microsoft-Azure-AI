@@ -1,0 +1,48 @@
+Regressão - IA
+
+A regressão no contexto do aprendizado de máquina refere-se a um tipo de tarefa em que o objetivo é prever um 
+valor numérico com base em variáveis de entrada. Em outras palavras, a regressão é usada quando a saída desejada é 
+uma variável contínua. Essa tarefa é diferente da classificação, onde o objetivo é prever a categoria à qual uma 
+observação pertence.
+
+Vamos entender os principais conceitos relacionados à regressão no aprendizado de máquina:
+
+Variáveis:
+
+Variáveis de Entrada (Características ou Features): São as informações disponíveis para o modelo de regressão. 
+Por exemplo, se estivermos prevendo o preço de uma casa, as características podem incluir o número de quartos, 
+a localização, a metragem quadrada, etc.
+Variável de Saída (Alvo): É a variável que estamos tentando prever. No exemplo da previsão de preço da casa, a 
+variável de saída seria o preço.
+
+
+Modelo de Regressão:
+
+O modelo de regressão é uma função matemática que estima a relação entre as variáveis de entrada e a variável de saída. 
+Existem vários tipos de modelos de regressão, como a Regressão Linear, a Regressão Polinomial, a Regressão de Árvore de 
+Decisão, entre outros.
+
+
+Treinamento do Modelo:
+
+O modelo é treinado usando um conjunto de dados de treinamento, onde as entradas e saídas correspondentes são conhecidas. 
+Durante o treinamento, o modelo ajusta seus parâmetros para minimizar a diferença entre as previsões e os valores reais.
+
+Avaliação do Modelo:
+
+Após o treinamento, o desempenho do modelo é avaliado usando um conjunto de dados de teste, que não foi visto durante 
+o treinamento. Métricas como Erro Médio Quadrático (Mean Squared Error) ou Coeficiente de Determinação (R²) são comumente 
+usadas para avaliar a precisão do modelo.
+
+
+Predição:
+
+Uma vez treinado e avaliado, o modelo pode ser utilizado para fazer previsões em novos conjuntos de dados, onde a variável 
+de saída é desconhecida.
+
+Exemplo prático: Se tivermos um conjunto de dados que relaciona o tempo de estudo (variável de entrada) ao desempenho 
+em um exame (variável de saída), poderíamos usar um modelo de regressão para prever o desempenho no exame com base no 
+tempo de estudo.
+
+Portanto, a regressão no aprendizado de máquina é uma ferramenta importante para a previsão de valores contínuos e é 
+aplicada em uma variedade de domínios, incluindo finanças, economia, ciências naturais e muitos outros.

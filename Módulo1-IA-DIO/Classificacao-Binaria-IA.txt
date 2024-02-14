@@ -1,0 +1,56 @@
+Classificação Binária - IA
+
+A classificação binária é um tipo específico de tarefa de aprendizado de máquina em que o modelo é treinado para 
+categorizar dados em duas classes distintas. Em outras palavras, o objetivo é prever se uma observação pertence a 
+uma das duas categorias possíveis, frequentemente rotuladas como "positiva" e "negativa" ou "classe 1" e "classe 0". 
+Essa abordagem de classificação é binária porque há exatamente duas opções de saída.
+
+Exemplos comuns de tarefas de classificação binária incluem:
+
+Email Spam ou Não Spam:
+Dado um email, o modelo de classificação binária tenta determinar se é spam ou não spam.
+
+
+Detecção de Fraude em Transações Financeiras:
+Determinar se uma transação é fraudulenta ou legítima com base em seus padrões e características.
+
+
+Diagnóstico Médico:
+Prever se um paciente tem uma determinada condição médica (por exemplo, positivo para uma doença) com base em dados 
+clínicos.
+
+
+Churn Prediction em Empresas:
+Identificar se um cliente provavelmente cancelará seu serviço ou contrato.
+
+
+Reconhecimento Facial:
+Determinar se uma imagem facial pertence a uma pessoa específica.
+
+
+O processo de classificação binária geralmente envolve os seguintes passos:
+
+Conjunto de Dados de Treinamento:
+Um conjunto de dados é preparado com exemplos rotulados, onde cada observação é associada a uma classe específica.
+
+
+Treinamento do Modelo:
+Um modelo de aprendizado de máquina, como uma máquina de vetores de suporte (SVM), regressão logística, ou redes neurais, 
+é treinado usando esse conjunto de dados para aprender padrões que diferenciam as duas classes.
+
+Ajuste de Parâmetros:
+Durante o treinamento, os parâmetros do modelo são ajustados para minimizar a diferença entre as previsões do modelo 
+e os rótulos reais no conjunto de dados de treinamento.
+
+
+Conjunto de Dados de Teste:
+O modelo treinado é avaliado em um conjunto de dados de teste separado para verificar sua capacidade de generalização 
+para dados não vistos durante o treinamento.
+
+
+Avaliação de Desempenho:
+Métricas como precisão, recall, F1-score e matriz de confusão são comumente usadas para avaliar o desempenho do modelo 
+de classificação binária.
+
+A classificação binária é uma tarefa fundamental e amplamente utilizada em muitas aplicações práticas de aprendizado 
+de máquina.
