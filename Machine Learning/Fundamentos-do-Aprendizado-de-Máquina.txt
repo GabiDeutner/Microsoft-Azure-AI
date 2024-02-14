@@ -137,3 +137,78 @@ como clusterização com base em características similares).
 
 
 
+>>>> Treinamento e avaliação de modelo <<<<
+
+
+1. Dados de Treinamento:
+Definição: Conjunto de dados usado para treinar o modelo.
+Papel no Treinamento: Os algoritmos de machine learning são treinados usando esses dados para aprender padrões e 
+relações entre as entradas e saídas desejadas.
+
+
+2. Algoritmo:
+
+Definição: Conjunto de regras e procedimentos que o modelo segue para aprender a partir dos dados.
+Papel no Treinamento: O algoritmo guia o processo de ajuste do modelo aos dados de treinamento, ajustando seus 
+parâmetros para fazer previsões precisas.
+
+
+3. Modelo:
+
+Definição: Representação do conhecimento adquirido pelo algoritmo durante o treinamento.
+Papel no Treinamento: O modelo é construído e ajustado durante o treinamento para mapear entradas para saídas. 
+Ele é o resultado tangível do processo de aprendizado.
+
+
+4. Inferência de Dados:
+
+Definição: Uso do modelo treinado para fazer previsões ou tomar decisões sobre novos dados.
+Papel na Avaliação: Após o treinamento, o modelo é utilizado para realizar inferência em dados de teste ou dados não 
+vistos durante o treinamento.
+
+
+5. Predição:
+
+Definição: Estimativa ou resposta gerada pelo modelo para uma entrada específica.
+Papel na Avaliação: Durante a avaliação do modelo, a predição é comparada com os rótulos reais para determinar a 
+precisão e desempenho do modelo.
+
+
+Resumo do Processo:
+
+Durante o treinamento, o algoritmo usa os dados de treinamento para ajustar os parâmetros do modelo.
+Após o treinamento, o modelo é utilizado para fazer inferência em novos dados, gerando previsões.
+A avaliação é realizada comparando essas previsões com os rótulos reais dos dados de teste, medindo a precisão e 
+desempenho do modelo.
+
+Este ciclo de treinamento, inferência e avaliação é fundamental para o desenvolvimento de modelos de machine learning 
+eficazes.
+
+
+
+
+======================================================================================================================
+
+
+
+>>>>> Aprendizado Profundo <<<<<
+
+> Rede neural humana
+- Neurônios disparam em resposta a estímulos eletroquímicos.
+- Quando disparado, o sinal é passado para neurônios conectados
+
+> Rede neural artificial
+Cada neurônio é uma função que opera com um valor de entrada (x) e um peso(w)
+- A função é envolvida em uma função de ativação que determina sea saída deve ser transmitida
+
+Aprendizado profundo
+Exemplode rede neural– classificação multiclasse
+
+>>> O que é o Azure Machine Learning?
+
+Azure Machine Learning é umaplataforma baseada em nuvem para aprendizado de máquina.
+https://ml.azure.com/
+
+Azure Machine Learning Studio é uma interface de usuário para acessar recursos do Azure Machine Learning
+
+Osmodelos deaprendizagem automática treinados comAzure Machine Learning podem ser publicados como serviços.
