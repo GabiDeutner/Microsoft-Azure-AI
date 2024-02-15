@@ -1,4 +1,4 @@
-Trabalhando com Machine Learning na Prática no Azure ML
+Desafio: Trabalhando com Machine Learning na Prática no Azure ML
 
 1. Crie um novo repositório no github com um nome a sua preferência
 2. Crie um modelo de previsão com seus devidos pontos de extremidade configurados
@@ -14,14 +14,14 @@ https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01
 
 
 
-Avalie o melhor modelo
+<h1> Avalie o melhor modelo </h1>
 Quando o trabalho automatizado de aprendizado de máquina for concluído, você poderá revisar o melhor modelo treinado.
 
 ![alt text](image.png)
 
-Na guia Visão geral do trabalho automatizado de aprendizado de máquina, observe o melhor resumo do modelo. Captura de tela do melhor resumo do modelo do trabalho automatizado de aprendizado de máquina com uma caixa ao redor do nome do algoritmo.
+Na guia Visão geral do trabalho automatizado de aprendizado de máquina, observe o melhor resumo do modelo.
 
-Observação Você poderá ver uma mensagem com o status “Aviso: pontuação de saída especificada pelo usuário alcançada…”. Esta é uma mensagem esperada. Continue para a próxima etapa.
+Observação: Você poderá ver uma mensagem com o status “Aviso: pontuação de saída especificada pelo usuário alcançada…”. Esta é uma mensagem esperada. Continue para a próxima etapa.
 
 Selecione o texto em Nome do algoritmo do melhor modelo para visualizar seus detalhes.
 
@@ -29,13 +29,17 @@ Selecione a guia Métricas e selecione os gráficos residuais e predito_true se 
 
 Revise os gráficos que mostram o desempenho do modelo. O gráfico de resíduos mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma. O gráfico predito_true compara os valores previstos com os valores verdadeiros.
 
-Implantar e testar o modelo
+<h1> Implantar e testar o modelo </h1>
+
 Na guia Modelo do melhor modelo treinado pelo seu trabalho automatizado de machine learning, selecione Implantar e use a opção de serviço Web para implantar o modelo com as seguintes configurações:
+
 Nome : prever-aluguéis
 Descrição : Prever aluguel de bicicletas
 Tipo de computação : Instância de Contêiner do Azure
 Habilitar autenticação : selecionado
+
 Aguarde o início da implantação – isso pode levar alguns segundos. O status de implantação do endpoint de previsão de aluguel será indicado na parte principal da página como Running .
+
 Aguarde até que o status da implantação mude para Succeeded . Isso pode levar de 5 a 10 minutos.
 Testar o serviço implantado
 Agora você pode testar seu serviço implantado.
@@ -80,6 +84,7 @@ Código
  }
 O painel de teste pegou os dados de entrada e usou o modelo treinado para retornar o número previsto de aluguéis.
 
+Abaixo, evidências dos meus testes:
 
 
 ![alt text](image-1.png)
