@@ -14,7 +14,7 @@ https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01
 
 
 
->>> Avalie o melhor modelo
+<h1> Avalie o melhor modelo </h1>
 Quando o trabalho automatizado de aprendizado de máquina for concluído, você poderá revisar o melhor modelo treinado.
 
 ![alt text](image.png)
@@ -29,7 +29,7 @@ Selecione a guia Métricas e selecione os gráficos residuais e predito_true se 
 
 Revise os gráficos que mostram o desempenho do modelo. O gráfico de resíduos mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma. O gráfico predito_true compara os valores previstos com os valores verdadeiros.
 
->>> Implantar e testar o modelo
+<h1> Implantar e testar o modelo </h1>
 
 Na guia Modelo do melhor modelo treinado pelo seu trabalho automatizado de machine learning, selecione Implantar e use a opção de serviço Web para implantar o modelo com as seguintes configurações:
 
