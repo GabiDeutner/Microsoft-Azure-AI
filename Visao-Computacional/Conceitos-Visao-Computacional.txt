@@ -16,3 +16,23 @@ Objetivos de Aprendizado
 - Filtros são aplicados para alterar imagens
 
 
+>>> Imagens e processamento de imagens
+
+- Uma foto preta e branca de uma cidade
+- Uma foto preta e branca de uma cidade grande
+- Um grande edifício em uma cidade
+
+
+>>> Redes Neurais Convolucionais
+
+ 1.Imagens rotuladas são usadas para treinar o modelo
+ 2. Camadas de filtro extraem mapas de recursos de cada imagem
+ 3. Os mapas de recursos são reunidos
+ 4. Os valores dos recursos são alimentados em uma rede neural totalmente conectada
+ 5. A camada de saída produz um valor de probabilidade para cada rótulo de classe possível
+
+
+>>> Modelos multimodais
+
+O modelo encapsula relações semânticas entre recursos extraídos das imagens e texto extraído de legendas relacionadas.
+Um modelo multimodal pode ser usado como modelo base para modelos adaptativos mais especializados.
