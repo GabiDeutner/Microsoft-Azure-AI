@@ -1,0 +1,18 @@
+>>>>> Conceitos de Visão Computacional <<<<<
+
+- Conceitos de visão computacional
+- Capacidades de visão computacional no Azure
+
+Objetivos de Aprendizado
+- Compreender ascapacidades do Azure AI Vision
+- Identificar os diferentes serviços incluídos no Azure AI Vision.
+- Descrever oserviço de detecção facial
+
+
+>>>>> Conceitos de Visão Computacional
+
+>>> Imagens e processamento de imagens
+- Uma imagem é uma matriz de valores de pixels
+- Filtros são aplicados para alterar imagens
+
+
