@@ -1,0 +1,15 @@
+
+{
+    "apim-request-id": "1e2563a6-0cfa-43b4-a86d-6e4e13436695",
+    "content-length": "160",
+    "content-type": "application/json; charset=utf-8",
+    "modelVersion": "2023-10-01",
+    "captionResult": {
+      "text": "a group of cows grazing in a field",
+      "confidence": 0.861102819442749
+    },
+    "metadata": {
+      "width": 375,
+      "height": 250
+    }
+  }
