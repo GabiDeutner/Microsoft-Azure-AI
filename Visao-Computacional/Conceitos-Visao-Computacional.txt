@@ -114,7 +114,7 @@ compartilhadas entre modalidades diferentes.
 
 - Análise de imagem:
 Marcação de imagens, legendas, personalização de modelos e muitomais.
-- ReconhecimentoÓptico de Caracteres (OCR)
+- Reconhecimento Óptico de Caracteres (OCR)
 - Análise espacial
 
 > Face
