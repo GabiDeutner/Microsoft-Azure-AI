@@ -38,4 +38,17 @@ Depois ir em Optical Character Recognition > Extract Text from images
 
 ![alt text](image-18.png)
 
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+Depois ir em Image Analysis > Add captions to images
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+![alt text](image-24.png)
 
