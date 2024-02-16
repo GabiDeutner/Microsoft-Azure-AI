@@ -1,0 +1,14 @@
+Links
+
+ https://aka.ms/ai900-face
+
+ https://aka.ms/ai900-ocr
+
+ https://aka.ms/ai900-image-analysis
+
+
+Links Úteis
+
+ Documentação Oficial
+ https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/1-introduction
+ https://learn.microsoft.com/pt-br/azure/architecture/ai-ml/idea/image-classification-with-convolutional-neural-networks

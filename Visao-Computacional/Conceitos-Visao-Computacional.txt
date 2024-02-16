@@ -32,7 +32,126 @@ Objetivos de Aprendizado
  5. A camada de saída produz um valor de probabilidade para cada rótulo de classe possível
 
 
+>>> Explicação Detalhada
+
+1. Imagens rotuladas são usadas para treinar o modelo:
+
+No início do treinamento, você fornece ao modelo um conjunto de imagens juntamente com seus rótulos correspondentes. 
+Isso permite que o modelo aprenda a relação entre os padrões nas imagens e suas classes associadas.
+
+
+2. Camadas de filtro extraem mapas de recursos de cada imagem:
+
+Durante a fase de convolução, o modelo utiliza filtros para convolver sobre a imagem de entrada. Cada filtro destaca 
+características específicas da imagem, criando mapas de características que representam diferentes aspectos da imagem, 
+como bordas, texturas, ou padrões mais complexos.
+
+
+3. Os mapas de recursos são reunidos:
+
+Após a convolução, normalmente são aplicadas camadas de pooling para reduzir a dimensionalidade dos mapas de 
+características, preservando as informações mais importantes. O pooling ajuda a tornar a representação mais robusta e 
+eficiente computacionalmente.
+
+O pooling é uma operação utilizada em redes neurais convolucionais (CNNs) durante a fase de extração de características. 
+Sua principal função é reduzir a dimensionalidade dos mapas de características, preservando as informações mais 
+importantes. Existem duas formas comuns de pooling: o Max Pooling e o Average Pooling.
+
+Max Pooling:
+
+Nessa operação, uma janela (por exemplo, 2x2 ou 3x3) percorre o mapa de características, e em cada posição, retém apenas 
+o valor máximo dentro dessa janela. Isso significa que, para cada região do mapa de características, apenas o recurso 
+mais destacado é mantido, enquanto os outros são descartados. Isso ajuda a preservar características dominantes 
+e reduzir a quantidade de dados a serem processados nas camadas seguintes.
+
+Average Pooling:
+
+Ao contrário do Max Pooling, o Average Pooling calcula a média dos valores dentro da janela. Em vez de manter apenas o 
+valor máximo, ele considera a média, o que pode ajudar a preservar informações mais suaves e de baixa amplitude. No 
+entanto, o Max Pooling é mais comum na prática, pois tende a funcionar melhor na preservação de características 
+importantes.
+
+A operação de pooling é geralmente intercalada com as camadas de convolução em uma arquitetura CNN, reduzindo 
+progressivamente a resolução espacial dos mapas de características, mantendo as informações essenciais para o 
+aprendizado. Isso também ajuda a tornar a rede mais robusta a variações nas posições exatas das características 
+na imagem.
+
+
+4. Os valores dos recursos são alimentados em uma rede neural totalmente conectada:
+
+Os mapas de características resultantes são então achatados e alimentados em uma ou mais camadas totalmente conectadas. 
+Essas camadas realizam operações lineares nos dados, permitindo que o modelo aprenda padrões mais complexos e abstratos.
+
+
+5. A camada de saída produz um valor de probabilidade para cada rótulo de classe possível:
+
+A última camada da rede é uma camada de saída que normalmente utiliza uma função de ativação, como a softmax, para gerar 
+probabilidades associadas a cada classe possível. Isso permite que o modelo atribua uma probabilidade a cada classe e faça 
+uma previsão final com base nessas probabilidades.
+
+Essa arquitetura é comumente usada em tarefas de visão computacional, como classificação de imagens.
+
+
+
+
 >>> Modelos multimodais
 
 O modelo encapsula relações semânticas entre recursos extraídos das imagens e texto extraído de legendas relacionadas.
 Um modelo multimodal pode ser usado como modelo base para modelos adaptativos mais especializados.
+
+- Computer vision tasks
+- Adaptive models 
+- Foundation model 
+
+Os modelos multimodais são sistemas que podem processar e integrar informações de várias modalidades, como texto, 
+imagem, áudio, etc. Esses modelos são projetados para lidar com dados de diferentes tipos e aprender representações 
+compartilhadas entre modalidades diferentes.
+
+
+>>> Serviços de visão computacional no Azure
+
+> Visão
+
+- Análise de imagem:
+Marcação de imagens, legendas, personalização de modelos e muitomais.
+- ReconhecimentoÓptico de Caracteres (OCR)
+- Análise espacial
+
+> Face
+
+- Detecção de rosto
+- Reconhecimento facial
+
+> Capacidades de visão computacional no Azure
+
+> Análise de imagem 4.0 com o AI Vision Service
+Os recursos incluem:
+
+- Personalização do modelo
+- Ler texto de imagens
+- Detecte pessoas em imagens
+- Gerar legendas de imagens
+- Detectar objetos
+- Marcar recursosvisuais
+- Corte inteligente
+
+> Detectando rostos com o Face Service
+
+Qualquer pessoa pode usar o serviço Facepara detectar:
+- Desfoque:quão desfocadoestáo rosto
+- Exposição: aspectos como Ruído: refere-se ao ruído visual na imagem.
+- Óculos: se a pessoa estiver usando óculos
+- Pose da cabeça: a orientação do rosto em um espaço 3D
+- Ruído: refere-se ao ruído visual na imagem.
+- Oclusão: determina se pode haver objetos bloqueando o rosto na imagem
+
+Somente clientes gerenciados da Microsoft podem acessar recursos de reconhecimento facial:
+- Correspondênciade similaridade
+- Verificação de Identidade
+
+> Lendo texto com reconhecimento óptico de caracteres (OCR)
+Detectar a localização do texto:
+- Impresso
+- Escrito à mão
+- Opções para extração rápida de texto de imagens ou análise assíncrona de documentos digitalizados maiores.
+
