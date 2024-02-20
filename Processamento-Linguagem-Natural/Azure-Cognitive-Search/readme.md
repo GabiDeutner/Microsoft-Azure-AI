@@ -366,6 +366,17 @@ Observe as frases-chave que o armazenamento de conhecimento conseguiu capturar d
 
 ![alt text](image-73.png)
 
+![alt text](image-74.png)
+
+![alt text](image-75.png)
+
+![alt text](image-76.png)
+
+![alt text](image-77.png)
+
+![alt text](image-78.png)
+
+![alt text](image-79.png)
 
 
 
