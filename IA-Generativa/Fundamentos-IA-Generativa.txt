@@ -1,0 +1,253 @@
+>>> Fundamentos da IA Generativa
+
+- Conceitos básicos de IA gerativa
+- Conceitos básicos do Serviço OpenAI do Azure
+- Explore a IA Gerativa Responsável
+
+>>> Objetivos de Aprendizado
+
+- Descreva a IA generativa.
+- Descreva os recursos de grandes modelos de linguagem.
+- Entenda como usar o Azure OpenAI para criar soluções generativas de IA.
+
+>>> O que é a IA Generativa?
+
+IA: imita o comportamento humano usando aprendizado de máquina para interagir com o ambiente e 
+executar tarefas sem instruções explícitas sobre o que gerar.
+
+IA generativa: cria conteúdo original, como IA gerativa que foi incorporada a aplicativos de chat.
+Os aplicativos de IA gerativa usam entrada em linguagem natural e retornam respostas apropriadas 
+em uma variedade de formatos:
+
+- Geração de linguagem natural
+- Geração de código
+- Geração de imagem
+
+>>> Modelos de linguagem grandes
+
+Os aplicativos de IA gerativa são alimentados por LLMs (modelos de linguagem grandes), que são 
+um tipo especializado de modelo de machine learning que você pode usar para executar tarefas 
+de PLN (processamento de linguagem natural), incluindo:
+
+- Determinar sentimento ou classificar de outra forma o texto em idioma natural.
+- Resumir um texto.
+- Comparar várias fontes de texto quanto à similaridade semântica.
+- Geração de nova linguagem natural.
+
+
+>>> Modelos de linguagem grandes - transformador
+
+A arquitetura do modelo do transformador consiste em dois componentes principais, ou 
+blocos.
+
+- Um bloco codificador que cria representações semânticas do vocabulário de treinamento.
+- Um bloco decodificador que gera novas sequências de linguagem.
+- O texto é tokenizado para que cada palavra ou frase seja representada por um token numérico 
+exclusivo.
+- Inserções (valores de vetor com várias dimensões) são atribuídas aos tokens
+- As camadas de atenção examinam cada token por vez e determinam valores incorporados que 
+refletem os relacionamentos semânticos entre os tokens
+- No decodificador, essas relações são usadas para prever a sequência mais provável de 
+tokens.
+
+
+>>> Modelos de linguagem grandes - tokenização
+
+Etapa um: tokenização
+- A primeira etapa no treinamento de um modelo de transformador é decompor o texto de 
+treinamento em tokens
+
+Frase de exemplo: Eu ouvi um cachorro latir alto para um gato.
+
+"Eu"=1 
+"ouvi"=2 
+"um"=3 
+"cachorro"=4
+"latir"=5 
+"alto"=6 
+"para"=7 
+"gato"=8
+
+A frase agora é representada com os tokens:
+[1 2 3 4 5 6 7 3 8].
+
+Observe que “um" é tokenizado como 3 apenas uma vez.
+Da mesma forma, a frase “Eu ouvi um gato" poderia ser representada com as fichas [1 2 3 8]
+
+
+>>> Modelos de linguagem grandes – inserções
+
+Etapa dois: inserções
+As relações entre tokens são capturadas como vetores, conhecidos como inserções
+Terceiro passo: atenção
+Capture a força das relações entre tokens usando a técnica de atenção
+
+>>> Modelos de linguagem grandes – atenção
+
+Exemplo:
+- Meta: prever o token após "cachorro".
+- Represente "Ouvi um cachorro" como vetores.
+- Atribua mais peso a "ouvi" e "cachorro"
+
+- Vários tokens possíveis podem vir depois de cachorro.
+- O token mais provável é adicionado à sequência, nesse caso , "latir".
+
+>>> Copilotos
+
+Os copilotos são frequentemente integrados a outros aplicativos e fornecem uma maneira para
+os usuários obterem ajuda com tarefas comuns a partir de um modelo generativo de IA
+
+Os desenvolvedores podem criar copilotos que enviam prompts para grandes modelos de
+linguagem e geram conteúdo para uso em aplicativos
+
+Os usuários empresariais podem usar copilotos para aumentar sua produtividade e criatividade
+com conteúdo gerado por IA
+
+>>> O que são copilotos?
+Outros exemplos de copilotos – Navegador Microsoft Edge
+Outros exemplos de copilotos – Microsoft Bing
+Outros exemplos de copilotos – GitHub Copilot
+
+>>> Aprimorar as respostas de IA generativa com a engenharia de prompts
+O termo engenharia de prompt descreve o processo de aprimoramento de prompts
+
+>>> Aprimorar as respostas de IA generativa com a engenharia de prompts
+
+Os desenvolvedores que projetam aplicativos e consumidores que usam aplicativos podem
+aprimorar a qualidade das respostas da IA gerativa usando linguagem direta, mensagens do sistema,
+exemplos e/ou dados de fundamentação
+
+>>> Aprimorar as respostas de IA generativa com a engenharia de prompts
+
+- Linguagem direta
+Descrição: Você pode obter conclusões mais úteis sendo explícito sobre o tipo de resposta que 
+deseja.
+Exemplo: “Crie uma lista de 10 coisas para fazer em Edimburgo durante o mês de agosto”
+
+- Mensagens do sistema
+Descrição: Descreva como o chat deve funcionar.
+Exemplo: "Você é um assistente útil que responde de maneira alegre e amigável"
+
+- Fornecer exemplos
+Descrição: As LLMs geralmente dão suporte ao aprendizado zero-shot no qual as respostas 
+podem ser geradas sem exemplos anteriores.No entanto, você também pode fornecer algumas respostas 
+de exemplo, conhecidas como aprendizado de poucas capturas.
+Exemplo: “Visite o castelo pela manhã, antes que as multidões cheguem”
+
+- Dados Básicos 
+Descrição: Os prompts podem incluir dados de fundamentação para fornecer contexto.
+Exemplo: Incluindo o texto de email com a mensagem “Resumir meu email”
+
+>>> Conceitos básicos do Serviço OpenAI do Azure
+
+- O que é o OpenAI do Azure?
+O Serviço OpenAI do Azure é a solução de nuvem da Microsoft para implantar, personalizar e
+hospedar modelos de linguagem grandes
+
+O serviço OpenAI do Azure consiste em:
+- Modelos de IA gerativa predefinidos.
+- Funcionalidades de personalização
+
+Ferramentas integradas para detectar e mitigar casos de uso prejudiciais para que os usuários
+possam implementar a IA com responsabilidade
+
+Segurança corporativa com RBAC (controle de acesso baseado em função) e redes privadas
+
+Você pode usar vários métodos para desenvolver soluções do Azure OpenAI:
+- Estúdio de IA do Azure,
+- API REST,
+- SDKs com suporte e CLI do Azure
+
+
+>>> A quais modelos o OpenAI do Azure dá suporte?
+
+- O Azure OpenAI dá suporte a muitos LLMs: 
+
+GPT-4
+Um conjunto de modelos que melhoram o GPT-3.5 e podem compreender e gerar linguagem 
+e código naturais
+
+GPT-3.5
+Um conjunto de modelos que melhoram o GPT-3 e podem compreender e gerar linguagem 
+e código naturais
+
+Incorporações
+Um conjunto de modelos que podem converter texto em um formulário de vetor numérico para facilitar 
+a similaridade de texto
+
+DALL-E (visualização)
+Uma série de modelos em pré-visualização que podem gerar imagens originais a partir de 
+linguagem natural
+
+>>> Como usar o OpenAI do Azure
+Estúdio Azure OpenAI:
+- Crie e implante modelos de IA para aplicativos de software
+- Alimentado por modelos generativos de IA otimizados para diversas tarefas
+
+>>> Estúdio Azure OpenAI:
+- Criar e implantar modelos de IA para aplicativos de software
+- Alimentado por modelos de IA gerativa otimizados para tarefas diversas
+- Modelos Azure OpenAI incluem: modelos GPT-4, GPT-3.5, Embeddings e DALL-E
+
+>>> Playgrounds:
+- Experimente modelos Azure OpenAI sem codificação
+- Use a configuração do assistente para instruir o modelo sobre como ele deve se comportar
+
+>>> Funcionalidades de linguagem natural do OpenAI do Azure
+- Os modelos de GPT (transformadores pré-treinados generativos) são excelentes para entender 
+e criar linguagem natural
+- Por exemplo, dado um prompt onde o usuário digita um texto solicitando uma receita culinária.
+- Os modelos GPT traduzem linguagem natural ou  trechos de código em código.
+- A geração de código vai além de apenas escrever código a partir de prompts em linguagem natural.
+- Os modelos de IA gerativa podem editar e criar imagens.O modelo que funciona com imagens é
+chamado DELL-E, que dá suporte à criação de imagem, edição de imagem e criação de variações de imagem.
+
+
+>>> Geração de imagens: Com o DALL-E você pode até solicitar uma imagem em um determinado
+estilo. Os estilos também podem ser usados para edições e variações
+
+Editando uma imagem: DALL-E pode editar a imagem conforme solicitado, alterando seu estilo, 
+adicionando ou removendo itens ou gerando novo conteúdo para adicionar
+
+Variações de imagem: variações de imagem podem ser criadas fornecendo uma imagem e especificando 
+quantas variações da imagem você deseja
+
+>>> IA generativa responsável
+
+Planejar uma solução de IA generativa responsável
+As quatro fases do processo para desenvolver e implementar um plano de IA responsável são:
+- Identificar
+- Medida
+- Mitigar
+- Operar
+
+1. Identificar:
+Nesta fase, é crucial identificar potenciais impactos éticos, sociais e legais da solução de IA 
+generativa. Isso inclui a compreensão das possíveis implicações sobre privacidade, viés, 
+transparência e equidade. Também é importante considerar as partes interessadas (stakeholders) 
+e envolvê-las no processo de identificação de preocupações e valores éticos relevantes.
+
+2. Medir:
+Depois de identificar os desafios éticos e sociais, é necessário quantificar esses impactos. 
+Avalie o grau de risco e o potencial impacto em diferentes grupos de usuários. Pode envolver a 
+criação de métricas específicas para avaliar aspectos éticos, como viés algorítmico, equidade 
+e transparência.
+
+3. Mitigar:
+Com base nas descobertas nas fases anteriores, desenvolva estratégias para mitigar os riscos 
+identificados. Isso pode incluir a implementação de algoritmos de IA mais éticos, aprimoramento 
+da transparência, considerações sobre privacidade desde o design (privacy by design) e a 
+incorporação de mecanismos para reduzir o viés algorítmico. A mitigação também deve ser uma 
+abordagem contínua, com ajustes conforme necessário.
+
+4. Operar:
+Nesta fase, a solução de IA é implementada e operada. Monitoramento contínuo é essencial para 
+garantir que a solução permaneça ética e alinhada com as metas de responsabilidade. Isso envolve 
+revisão regular das métricas definidas na fase de medição, adaptação de estratégias de mitigação 
+conforme necessário e manutenção de uma comunicação transparente com as partes interessadas.
+
+Links:
+https://aka.ms/ai900-bing-copilot
+https://aka.ms/ai900-azure-openai
+https://aka.ms/ai900-content-filters
+https://learn.microsoft.com/en-us/training/paths/document-intelligence-knowledge-mining/
