@@ -1,0 +1,112 @@
+>>> Inteligência de Documentos e Mineração de Conhecimento
+>>> Fundamentos de IA do Microsoft Azure
+
+>>> Tópicos:
+- Inteligência de Documentos de IA do Azure
+- Pesquisa Cognitiva do Azure
+
+>>> Objetivos de Aprendizado: 
+- Entenda o que o Azure AI Document Intelligence faz e por que as organizações o utilizam.
+- Descrever a mineração de conhecimento e os problemas que ela resolve.
+
+>>> Inteligência de Documentos de IA do Azure
+
+>>> Serviços de inteligência de documentos de IA
+>>> Análise de documentos:
+- Retorna representações de dados estruturados.
+- Regiões de interesse e relacionamentos.
+- Configurar opções de análise para análise gratuita e cobrada
+
+1. Serviços de inteligência de documentos de IA:
+Esses serviços utilizam inteligência artificial para processar e analisar documentos.
+
+2. Análise de documentos:
+A capacidade de analisar documentos de maneira eficiente e extrair informações relevantes.
+
+3. Retorna representações de dados estruturados:
+A capacidade de extrair dados organizados e estruturados a partir dos documentos, o que pode 
+incluir informações como tabelas, listas ou outros formatos de dados estruturados.
+
+4. Regiões de interesse e relacionamentos:
+Identificação de áreas específicas nos documentos que são consideradas de interesse, bem como 
+a análise de relacionamentos entre diferentes partes do conteúdo.
+
+5. Configurar opções de análise para análise gratuita e cobrada:
+Oferece opções de análise, onde pode haver uma versão gratuita com funcionalidades básicas e 
+uma versão paga com recursos avançados. Isso implica em diferentes níveis de serviço, dependendo 
+das necessidades e do orçamento do usuário.
+
+
+>>> Modelos pré-construídos:
+- Faturas
+- Recibos
+- Identificador
+- Reconhece e extrai pares de valores-chave
+
+>>> Modelos personalizados:
+- Treine modelos com pelo menos cinco dados de amostra.
+- Identifique campos de interesse para sua organização.
+
+>>> Analisando formulários com o serviço Document Intelligence
+- Extraia informações de formulários digitalizados em formato de imagem ou PDF.
+- Use os modelos pré-treinados para tipos de documentos comuns, como faturas, recibos, IDs, etc.
+- Treine um modelo personalizado usando seus próprios formulários.
+- Use os modelos pré-treinados para tipos de documentos comuns, como faturas, recibos, IDs, etc.
+- Treine um modelo personalizado usando seus próprios formulários
+- Os modelos realizam reconhecimento semântico de campos de formulário – não apenas extração 
+de texto
+
+>>> Estúdio de Inteligência de Documentos
+Usando uma abordagem sem código, você pode explorar a funcionalidade usando exemplos e seus
+próprios documentos.
+Primeiro - crie um recurso:
+- Recurso de Inteligência de Documentos
+- Recurso de serviços de IA
+- Em seguida, habilite o recurso no Document Intelligence Studio.
+- Página de primeiros passos: selecione um modelo para experimentar
+
+
+>>> Pesquisa Cognitiva do Azure
+
+> O que é mineração de conhecimento?
+- As organizações têm muito conteúdo
+- Os dados são bloqueados em documentos, PDFs, notas manuscritas, etc.
+- A mineração de conhecimento encontra insights – em escala.
+-  O Azure Cognitive Search é a plataforma de mineração de conhecimento alimentada por IA do
+Azure.
+
+
+>>> Soluções de Pesquisa Cognitiva do Azure
+
+1. Ingestão de dados
+- Azure Blob Storage containers
+- Azure Data Lake Storage Gen2
+- Azure Table Storage
+
+2. Enriquecimento e índice de IA
+- Permite uma compreensão mais profunda
+- Visão, Processamento de Linguagem Natural, etc.
+- A indexação torna o conteúdo pesquisável
+
+3. Explorar
+- Pesquisa realizada em índices
+- Dentro dos aplicativos
+- Crie visualizações de dados
+
+
+>>> Enriquecimento de IA
+Pesquisa Cognitiva do Azure
+O enriquecimento de IA torna o conteúdo mais útil para fins de pesquisa
+O conteúdo enriquecido é criado por conjuntos  de habilidades como:
+- Reconhecer entidades no texto
+- Traduzir texto
+- Avalie o sentimento
+
+Um conjunto de habilidades produz documentos enriquecidos
+- Consumido durante a indexação
+- Os dados serializados são passados ao mecanismo de pesquisa para indexação
+
+links:
+https://aka.ms/ai900-ai-search
+https://learn.microsoft.com/en-us/training/paths/document-intelligence-knowledge-mining/
+
